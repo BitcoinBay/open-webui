@@ -106,9 +106,9 @@ for source in log_sources:
 log.setLevel(SRC_LOG_LEVELS["CONFIG"])
 
 
-WEBUI_NAME = os.environ.get("WEBUI_NAME", "Bitcoin Bay")
-if WEBUI_NAME != "Bitcoin Bay":
-    WEBUI_NAME += " (Bitcoin Bay)"
+WEBUI_NAME = os.environ.get("WEBUI_NAME", "Bitcoin Bay AI")
+if WEBUI_NAME != "Bitcoin Bay AI":
+    WEBUI_NAME += " (Bitcoin Bay AI)"
 
 WEBUI_FAVICON_URL = "https://openwebui.com/favicon.png"
 
